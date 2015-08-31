@@ -73,13 +73,18 @@ function makeCounter() {
 
   //Code Here
 function oneTime(funct) {
+  var count =0;
+
+  while(count <= 1){
+
   return funct();
+}
 }
 
 
 //Next Problem
 
-
+while(){}
 
 /*
   Now, similar to the last problem, write a function called
@@ -98,6 +103,8 @@ function fnCounter(funct, N) {
   return "STOP";
 
 }
+
+
 
 //Next Problem
 
